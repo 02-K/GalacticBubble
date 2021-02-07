@@ -1,0 +1,248 @@
+/* style.css NavBAR*/
+
+/* File css from components file */
+@import url("components-index/pictures.css");
+@import url("components-index/button.css");
+@import url("components-index/banner.css");
+@import url("components-index/container.css");
+@import url("components-index/card.css");
+
+/*Google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;1,300&family=JetBrains+Mono:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;1,300&family=JetBrains+Mono:ital,wght@1,500&family=Jura:wght@300&display=swap');
+
+
+body{
+	font-family: 'Jura', sans-serif;
+	font-size: 14px;
+  margin: 0;
+
+}
+
+h1{
+
+  font-family: 'JetBrains Mono', monospace;
+	font-size: 30px;
+}
+
+h2, h3{
+	font-family: 'Exo', sans-serif;
+  font-size: 40px;
+}
+
+p{
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  opacity: 88%;
+}
+
+main{
+	padding: 16px 64px;
+	margin-left: 80px ;
+	text-align: justify;
+}
+
+
+
+/*CSS Navbar*/
+
+.navbar {
+  z-index: 2;
+  width:80px;
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  background-color: black;
+  box-shadow: rgba(12, 43, 30, 0.2) 0 4px 14px;
+  transition: width 0.4s ease;
+}
+
+.navbar:hover {
+  width:280px;
+}
+
+.navbar-menu {
+  list-style: none;
+  padding:0px;
+  margin:0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:100%;
+  position: relative;
+  
+}
+
+/*for the exit icon*/
+#navbar-position{
+  position: absolute;
+  bottom:0px;
+}
+
+
+
+.navbar-item {
+  width: 100%;
+  border-bottom:solid 1px;
+  border-color: black;
+  transition: background-color 0.4s;
+}
+
+
+/*For the bootom border*/
+#home-borderbottom{
+  border-bottom-color: white;
+}
+
+
+.navbar-item:hover {
+  background-color:white;
+
+}
+
+.navbar:child{
+	margin-top:auto;
+}
+
+
+.navbar-link {
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  height:70px;
+  width:100%;
+  text-decoration: none;
+}
+
+
+
+.navbar-icon {
+  text-align: center;
+  font-size: 24px;
+  min-width: 32px;
+  margin: 0 24px;
+  color:white;
+  transition: 0.4s;
+}
+
+.navbar-item:hover .navbar-icon {
+  color:black;
+}
+
+.navbar-title {
+  color:white;
+  font-family: 'Exo', sans-serif;
+  font-size: 18px;
+}
+
+.navbar-item:hover .navbar-title {
+  color:black;
+}
+
+
+.navbar:not(:hover) .navbar-title {
+  display:none;
+}
+
+.logo {
+  background-color: white;
+}
+
+.logo .navbar-title {
+  font-size: 24px;
+  font-weight:bold;
+  margin-left:24px;
+ 
+}
+
+#navbar-font{
+	color:black;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 30px;
+  text-align: justify;
+}
+
+#navbar-icon{
+	color:black;
+
+}
+
+.navbar:hover #navbar-icon{
+  transform: rotate(180deg);
+}
+
+/*Reponsive for tablet and smartphone*/
+
+@media (max-width:1024px) {
+  .navbar {
+    top:auto;
+    width:100%;
+    bottom:0px;
+  }
+
+  .navbar:hover {
+    width:100%;
+  }
+
+  #navbar-position{
+   position: relative;
+  
+  }
+
+  .navbar-menu {
+    flex-direction: row;
+  }
+
+  .logo {
+    display:none;
+  }
+
+  main {
+    margin-left:0; 
+  }
+
+  .navbar:hover .navbar-title {
+    display:none;
+  }
+
+  .navbar-icon {
+    min-width:auto;
+    margin:0;
+  }
+
+  .navbar-link {
+    justify-content: center;
+  }
+
+  .banner-all{
+    background-size: cover;
+  }
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px */
+  .container {
+    width: 700px;
+  }
+
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px*/
+  .container {
+    width: 500px;
+  }
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px*/
+  .container {
+    width: 300px;
+  }
+
+}
+

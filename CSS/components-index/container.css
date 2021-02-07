@@ -1,0 +1,36 @@
+/*Container*/
+
+.title-size{
+  margin:9px;
+}
+
+ 
+.background-B{
+	background-color: black;
+	width: auto;
+	height: 200px;
+	text-align: center;
+}
+
+
+
+.background-B h2{
+	color: white;
+	font-size: 30px;
+}
+.link-design{
+	text-decoration: none;
+}
+
+#contactus{
+	margin-top: 30px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+#contactus2{
+	margin-top: auto;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	border-color: black;
+}

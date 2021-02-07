@@ -1,0 +1,52 @@
+/*banner*/
+
+.banner-all{
+	color: white;
+	height: 100vh;
+	position: relative;
+	background-size: cover;
+}
+.container{
+	position: absolute;
+	bottom: 100px;
+	margin-right: 80px;
+}
+
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/Home/Space1.jpg") ;
+
+}
+
+.banner2{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/Home/Home2.jpg");
+}
+
+.banner3{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/Home/Home3.jpg");
+}
+
+.banner4{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/Space/Space1.jpg");
+}
+
+.banner5{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/Space/Space2.jpg");
+}
+
+.banner-background-size{
+	background-size: cover;
+}
+
+.banner6{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/Space/Space3.jpg");
+}
+.banner7{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/News/News0.jpg");
+	margin-bottom: 20px;
+}
+
+.banner8{
+	background-image: linear-gradient(45deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 85%), url("../../Images/Contact/Contact1.jpg");
+}
+
+

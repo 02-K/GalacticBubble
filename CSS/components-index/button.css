@@ -1,0 +1,102 @@
+/*button*/
+
+
+.twitter {
+
+	height: 40px;
+	width: 220px;
+	box-shadow: none;
+	border-radius: 5px;
+	background: black;
+	color: #eeeeee;
+	font-size: 20px;
+	border: 1.6px solid #eeeeee;
+	margin-top: 0;
+	box-shadow: 0px 15px 15px rgba(0,0,0, 0.75);
+	margin-right: 8px;
+	transition: color 0.8s ease;
+
+}
+
+.twitter:hover {
+
+	background: #eeeeee;
+	color: black;
+	border: 1.6px solid black;
+	cursor: pointer;
+}
+
+.instagram {
+
+	height: 40px;
+	width: 220px;
+	box-shadow: none;
+	border-radius: 5px;
+	background: black;
+	color: #eeeeee;
+	font-size: 20px;
+	border: 1.6px solid #eeeeee;
+	margin-top: 0;
+	box-shadow: 0px 15px 15px rgba(0,0,0, 0.75);
+	margin-right: 8px;
+	transition: color 0.8s ease;
+
+}
+
+.instagram:hover {
+
+	background: #eeeeee;
+	color: black;
+	border: 1.6px solid black;
+	cursor: pointer;
+}
+
+.linkedin {
+
+	height: 40px;
+	width: 220px;
+	box-shadow: none;
+	border-radius: 5px;
+	background: black;
+	color: #eeeeee;
+	font-size: 20px;
+	border: 1.6px solid #eeeeee;
+	margin-top: 0;
+	box-shadow: 0px 15px 15px rgba(0,0,0, 0.75);
+	margin-right: 8px;
+	transition: color 0.8s ease;
+
+}
+
+.linkedin:hover {
+
+	background: #eeeeee;
+	color: black;
+	border: 1.6px solid black;
+	cursor: pointer;
+}
+
+.youtube {
+
+	height: 40px;
+	width: 220px;
+	box-shadow: none;
+	border-radius: 5px;
+	background: black;
+	color: #eeeeee;
+	font-size: 20px;
+	border: 1.6px solid #eeeeee;
+	margin-top: 0;
+	box-shadow: 0px 15px 15px rgba(0,0,0, 0.75);
+	margin-right: 8px;
+	transition: color 0.8s ease;
+
+}
+
+.youtube:hover {
+
+	background: #eeeeee;
+	color: black;
+	border: 1.6px solid black;
+	cursor: pointer;
+}
